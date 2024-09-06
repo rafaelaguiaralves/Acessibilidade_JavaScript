@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+
+.Resultados-Pesquisa {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+input:focus,
+button:focus {
+    outline: 2px solid blue;
+}
+
+
+
+/* Estilos para o tema escuro */
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.Resultado-Item {
+    background-color: #222;
+    color: #fff;
+}
+
+#menu {
+    display: none; /* Esconde o menu por padrão */
+    background-color: #f1f1f1;
+    padding: 15px;
+    transition: all 0.3s ease-in-out; /* Adiciona uma transição suave */;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
